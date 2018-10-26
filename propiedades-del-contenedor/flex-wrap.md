@@ -9,13 +9,34 @@ Sus valores son:
 
 * **nowrap \(por defecto\)**: Con este valor los items son colocados en una sola línea sin importar cuántos sean.
 
-![](https://lh6.googleusercontent.com/v9-TcpEhG7wMNN-CAunOerbpg1bxjvQwnfsz4UXWwswOovxM8kjOGmba_Ksyx002-6C7jx8A6YrIn_XBrn3sZ4BHUVFc0z7rkaGeBot2TZ0g_AgNeTF256-_5tex6oCadVotrjWP)
+```text
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+```
+
+![Image from: https://soyfrontend.com/](https://lh6.googleusercontent.com/v9-TcpEhG7wMNN-CAunOerbpg1bxjvQwnfsz4UXWwswOovxM8kjOGmba_Ksyx002-6C7jx8A6YrIn_XBrn3sZ4BHUVFc0z7rkaGeBot2TZ0g_AgNeTF256-_5tex6oCadVotrjWP)
 
 * **wrap**: Con este valor los items son colocados en varias líneas si la suma del ancho de los items es superior al ancho del contenedor. Esto vuelve al contenedor un elemento multi-línea.
 
-![](https://lh4.googleusercontent.com/32PCXolOW3xQYxQmi3GkT9PgQ1Clmu4wBEwGdNaxSm0dkuMYixXktd7nWBsssfboBHH5ohOPYZBtAhOiraLasp1emjavvpnsLBrSHajaaWebnuYVuGiYCCISnTFcs_fU4AwKErr8)
+```text
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+```
+
+![Image from: https://soyfrontend.com/](https://lh4.googleusercontent.com/32PCXolOW3xQYxQmi3GkT9PgQ1Clmu4wBEwGdNaxSm0dkuMYixXktd7nWBsssfboBHH5ohOPYZBtAhOiraLasp1emjavvpnsLBrSHajaaWebnuYVuGiYCCISnTFcs_fU4AwKErr8)
 
 * **wrap-reverse**: con este valor los ítem actuarán igual que con wrap pero a la inversa.
 
-![](https://lh5.googleusercontent.com/tiBUjMd90ovxZTTEncCpT9VReIW9CLeQ_MEq2zMDZAsZuGdViCd6u9fF1LVB67NNgTWaE6heeiiTYlFuUonUHqdr175OGkFRv0WJmf-pZbhoNAf1gVANnvWIZuSoVsr36XeqsTV7)
+```text
+.flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+```
+
+![Image from: https://soyfrontend.com/](https://lh5.googleusercontent.com/tiBUjMd90ovxZTTEncCpT9VReIW9CLeQ_MEq2zMDZAsZuGdViCd6u9fF1LVB67NNgTWaE6heeiiTYlFuUonUHqdr175OGkFRv0WJmf-pZbhoNAf1gVANnvWIZuSoVsr36XeqsTV7)
 

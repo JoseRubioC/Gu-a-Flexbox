@@ -5,3 +5,10 @@ Esta propiedad es simplemente la forma _shorthand_ o forma rápida para las prop
 * Los valores de flex-direction
 * Los valores de flex-wrap
 
+```text
+.flex-container {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+```
+
